@@ -1,0 +1,4 @@
+*.ipynb_checkpoints
+*ner-lstm.pt.*
+*__pycache__
+.vercel
