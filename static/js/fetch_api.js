@@ -22,7 +22,7 @@ window.onload = function(){
     btn_analyze.addEventListener("click", ()=>{
         // predict
         box_output.style.display = "none"
-        fetch(http+"/predict",{
+        fetch(host+"/predict",{
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
