@@ -68,10 +68,10 @@ vi static/js/fetch_api.js
 ```
 
 At project_web_argument_targer/static/js/fetch_api.js
-```
-# in line 2
+```javascript
+// in line 2
 const host = window.location.protocol + "//" + window.location.host;
-# change to
+// change to
 const host = "http://example.com";
 ```
 
