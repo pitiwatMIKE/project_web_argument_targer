@@ -1,5 +1,5 @@
 window.onload = function(){
-    const http = 'http://127.0.0.1:5000'
+    const host = window.location.protocol + "//" + window.location.host;
     //about input
     const input_text = document.getElementById("input_text")
     const model = document.getElementById("model")
@@ -11,7 +11,7 @@ window.onload = function(){
     const box_output = document.getElementById("box-output")
 
     // init random input_text 
-    fetch(http+"/initinput")
+    fetch(host+"/initinput")
       .then(response => response.json())
       .then(data => {
         input_text.value = data.init_input
