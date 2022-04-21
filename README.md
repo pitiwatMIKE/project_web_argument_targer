@@ -75,7 +75,7 @@ const host = window.location.protocol + "//" + window.location.host;
 const host = "http://example.com";
 ```
 
-Copy <CONTAINER ID>
+Copy CONTAINER ID
 ```
 sudo docker ps
 ```
