@@ -67,7 +67,7 @@ cd project_web_argument_targer
 vi static/js/fetch_api.js
 ```
 
-At project_web_argument_targer/static/js/etch_api.js
+At project_web_argument_targer/static/js/fetch_api.js
 ```
 # in line 2
 const host = window.location.protocol + "//" + window.location.host;
