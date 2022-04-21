@@ -45,7 +45,7 @@ window.onload = function(){
     const show = document.getElementById('predict-output-all')
     
     btnPredictAll.addEventListener("click", ()=>{
-      fetch(http+"/predict_all",{
+      fetch(host+"/predict_all",{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
